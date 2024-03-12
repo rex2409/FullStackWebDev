@@ -1,0 +1,220 @@
+.productDetails{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.productItem{
+    /* display: flex; */
+    width: 100%;
+    border-bottom: 1px solid black;
+    margin: 10px 0;
+    padding: 20px;
+}
+
+.productItem:last-child{
+    border-bottom: none;
+}
+
+.productItem::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.image{
+    height: 300px;
+    width: 30%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    float: left;
+}
+
+.info{
+    /* flex-grow: 1; */
+    display: flex;
+    float: right;
+    width: 70%;
+}
+
+.productInfo{
+    flex-grow: 4;
+    padding: 20px;
+}
+
+.priceInfo{
+    flex-grow: 1;
+}
+
+.price{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.btnGroup{
+    display: flex;
+}
+
+.btn{
+    flex-grow: 1;
+    background-color: orangered;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+
+.productInfoLink:visited,
+.productInfoLink{
+    text-decoration: none;
+    color: black;
+}
+
+.productInfoLink:link{
+    text-decoration: none;
+    color: black;
+}
+
+.productInfoLink .name{
+    color: blue;
+}
+
+/* css for payment and reviews section */
+
+
+.impDetails{
+    padding-top: 10px;
+}
+
+.reviews{
+    width: 70%;
+    /* border: 1px solid red; */
+    float: right;
+    position: relative;
+}
+
+.payment{
+    width: 25%;
+    /* border: 1px solid red; */
+    float: left;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.buynowBtn,
+.addtocartBtn{
+    width: 45%;
+    font-size: 16px;
+    padding: 5px;
+    color: black;
+    font-weight: 700;
+    border: 0;
+    cursor: pointer;
+}
+
+.writeReview{
+    font-size: 16px;
+    padding: 5px;
+    color: black;
+    font-weight: 700;
+    border: 0;
+    cursor: pointer;
+    background-color: orange;
+    margin: 5px;
+
+}
+
+.buynowBtn{
+    background-color: greenyellow;
+}
+
+.addtocartBtn{
+    background-color: grey;
+}
+
+.hide{
+    display: none;
+}
+
+.writeReview{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.title,
+.description{
+    font-size: 20px;
+    width: 40%;
+    padding: 4px;
+    margin: 5px;
+}
+
+.submitReview{
+    font-size: 16px;
+    padding: 5px;
+    color: black;
+    font-weight: 700;
+    border: 0;
+    cursor: pointer;
+    background-color: orangered;
+
+}
+
+.reviewListItem{
+    font-size: 20px;
+    padding: 4px;
+    border-bottom: 1px solid black;
+    margin: 5px 0;
+    /* box-shadow: 3px 3px 5px black; */
+    width: 80%;
+    list-style: none;
+    position: relative;
+}
+
+.reviewTitle{
+    font-size: 20px;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.reviewDescription{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.deleteReviewBtn{
+    font-size: 16px;
+    padding: 5px;
+    color: black;
+    font-weight: 700;
+    border: 0;
+    cursor: pointer;
+    background-color: rgb(92, 3, 3);
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.deleteReviewBtn a{
+    text-decoration: none;
+    color: white;
+}
+
+.deleteReviewBtn a:link,
+.deleteReviewBtn a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+.deleteReviewBtn:hover{
+    cursor: pointer;
+}
