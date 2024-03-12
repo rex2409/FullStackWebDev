@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    {{> navbar}}
+    <div class="header">
+        <h1 class="blogsHeading">Blogs Site - Details</h1>
+    </div>
+
+    <ul class="blogsList">
+            <li class="blogItem">
+                <div class="blogTitle">
+                    <span class="blogTitleHeading">Title:</span> 
+                    <span class="blogTitleText">{{blog.title}}</span>
+                </div>
+                <div class="blogActor">
+                    <span class="blogActorHeading">Actor:</span>
+                    <span class="blogActorText">{{blog.actor.name}}</span> <br>
+                    <img src="{{blog.actor.imageUrl}}" alt="actor-image"> <br>
+                    <span class="blogActorText">{{blog.actor.age}}</span> 
+                </div>
+                <div class="blogDescription">
+                    <span class="blogDescriptionHeading">Description:</span>
+                    <span class="blogDescriptionText">{{blog.description}}</span>
+                </div>
+            </li>
+    </ul>
+</body>
+</html>

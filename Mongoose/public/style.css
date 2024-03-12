@@ -1,0 +1,151 @@
+.header{
+    width: 1200px;
+    margin: auto;
+}
+
+.blogsHeading,
+.actorsHeading{
+    color: #7E685A;
+    font-size: 60px;
+}
+
+.title,
+.actor,
+.description,
+.name,
+.actorImageUrl{
+    width: 80%;
+    padding: 5px;
+    font-size: 24px;
+}
+
+.blogsForm,
+.actorsForm{
+    /* border: 1px solid black; */
+    padding: 5px;
+}
+
+.descriptionBox,
+.titleBox,
+.actorBox,
+.nameBox,
+.ageBox{
+    display: flex;
+    margin: 5px;
+    font-size: 24px;
+    justify-content: space-between;
+}
+
+.header{
+    text-align: center;
+}
+
+.titleText,
+.descriptionText,
+.actorText,
+.nameText,
+.actorImage,
+.ageText{
+    color: #4E4E50;
+}
+
+.submitBtn{
+    font-size: 24px;
+    width: 20%;
+}
+
+.blogsList,
+.actorsList{
+    list-style: none;
+    width: 1200px;
+    margin: 20px auto;
+}
+
+.blogItem
+.actorItem{
+    font-size: 24px;
+    border: 1px solid #ccc;
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.blogDescription{
+    margin-top: 20px;
+}
+
+.deleteBtn,
+.updateBtn,
+.viewDetailsBtn{
+    font-size: 24px;
+    margin-top: 5px;
+}
+
+.deleteBtn a{
+    text-decoration: none;
+    color: red;
+}
+
+.deleteBtn a:link{
+    color: red;
+}
+
+.updateBtn a{
+    text-decoration: none;
+    color: blue;
+}
+
+.updateBtn a:link{
+    color: blue;
+}
+
+.viewDetailsBtn a{
+    text-decoration: none;
+    color: black;
+}
+
+.viewDetailsBtn a:link{
+    color: black;
+}
+
+.navbar{
+    border: 1px solid black;
+    font-size: 24px;
+    padding: 15px;
+    margin-bottom: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    background-color: #7E685A;
+}
+
+.navItem{
+    color: black;
+    margin-right: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.navItem:first-child{
+    margin-left: 20px;
+}
+
+.navItem:last-child{
+    margin-right: 0;
+}
+
+.navItem:hover{
+    color: #0E0E2A;
+}
+
+.actorsList{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+select{
+    width: 80%;
+    padding: 5px;
+    font-size: 24px;
+}

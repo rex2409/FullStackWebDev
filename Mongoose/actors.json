@@ -1,0 +1,17 @@
+[
+    {
+        "name":"Daniel Radcliffe",
+        "age":35,
+        "imageUrl":"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.TV5-Zmuh99VrREleoPWUHAHaJQ%26pid%3DApi&f=1&ipt=f7e69647f2fded6a59c72ce57461383181c5579bad607805a314f4b7e8b3f5a8&ipo=images"
+    },
+    {
+        "name":"Chris Evans",
+        "age":42,
+        "imageUrl":"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.d4Lzf2oOa1ZdKewyIY6C_QHaHF%26pid%3DApi&f=1&ipt=230fecb1e56f8ca00d893c0b2f4e5b284083fa2778d28c7bba86c2f71801d505&ipo=images"
+    },
+    {
+        "name":"Akshay Kumar",
+        "age":55,
+        "imageUrl":"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.jwXf_dF9p5FBQNT_DoRmlgHaJ4%26pid%3DApi&f=1&ipt=60e1f8af44f91e631b83f3272d81a6730bdc48a7dc61afa7d51d593cbcf33b8e&ipo=images"
+    }
+]

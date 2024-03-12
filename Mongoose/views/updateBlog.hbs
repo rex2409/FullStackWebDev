@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    {{> navbar}}
+    <div class="header">
+        <h1 class="blogsHeading">Update: Blog</h1>
+
+        <form class="blogsForm" action="/update" method="post">
+            <div class="titleBox">
+                <span class="titleText">Title:</span> 
+                <input value="{{blog.title}}" class="title" name="title" placeholder="Enter Title" type="text"><br>
+            </div>
+            <!-- <div class="actorBox">
+                <span class="actorText">Actor:</span>
+                <input value="{{blog.actor}}" class="actor" name="actor" placeholder="Enter Actor" type="text"><br>
+            </div> -->
+            <div class="descriptionBox">
+                <span class="descriptionText">Description:</span> 
+                <textarea class="description" name="description" rows="10" cols="50" type="text" placeholder="Write description here">{{blog.description}}</textarea><br>
+            </div>
+
+            <input type="hidden" value="{{blog._id}}" name="id">
+            <button class="submitBtn" type="submit">Update Blog</button>
+
+        </form>
+    </div>
+
+    
+</body>
+</html>

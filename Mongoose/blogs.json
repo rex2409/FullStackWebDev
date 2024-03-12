@@ -1,0 +1,17 @@
+[
+    {
+        "title":"Harry Potter",
+        "actor":new ObjectId('65e5581d274749cc13f30358'),
+        "description":"Harry James Potter is a fictional character and the titular protagonist in J. K. Rowling's series of eponymous novels. The majority of the books' plot covers seven years in the life of the orphan Harry, who, on his eleventh birthday, learns he is a wizard. Thus, he attends Hogwarts to practise magic under the guidance of the kindly headmaster Albus Dumbledore and other school professors along with his best friends Ron Weasley and Hermione Granger. Harry also discovers that he is already famous throughout the novel's magical community, and that his fate is tied with that of Lord Voldemort – the internationally feared Dark Wizard and murderer of his parents, James and Lily Potter. The book and film series revolve around Harry's struggle to adapt to the wizarding world and defeat Voldemort."
+    },
+    {
+        "title":"Captain America",
+        "actor":new ObjectId('65e5581d274749cc13f30359'),
+        "description":"Captain America: The First Avenger is a 2011 American superhero film based on the Marvel Comics character Captain America. Produced by Marvel Studios and distributed by Paramount Pictures,[a] it is the fifth film in the Marvel Cinematic Universe (MCU). The film was directed by Joe Johnston, written by Christopher Markus and Stephen McFeely, and stars Chris Evans as Steve Rogers / Captain America alongside Tommy Lee Jones, Hugo Weaving, Hayley Atwell, Sebastian Stan, Dominic Cooper, Toby Jones, Neal McDonough, Derek Luke, and Stanley Tucci. During World War II, Steve Rogers, a frail man, is transformed into the super-soldier Captain America and must stop the Red Skull (Weaving) from using the Tesseract as an energy source for world domination."
+    },
+    {
+        "title":"Hera Pheri",
+        "actor":new ObjectId('65e5581d274749cc13f3035a'),
+        "description":"Hera Pheri is a series of Indian comedy films. The first film is directed by Priyadarshan and produced by A.G. Nadiadwala,[1] the second film was directed by Neeraj Vora while third will be directed by Farhad Samji and produced by Firoz A. Nadiadwala[citation needed]. The first film of the series was the remake of the Malayalam film Ramji Rao Speaking while the second film's central plot takes inspiration from Lock, Stock and Two Smoking Barrels and the circus sequences were taken from the Charlie Chaplin film The Circus. The series stars Akshay Kumar, Sunil Shetty and Paresh Rawal in lead roles. The third installment of the series is in development."
+    }
+]

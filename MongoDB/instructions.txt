@@ -1,0 +1,35 @@
+# first create a database in shell using command
+        - use nameof_database;
+
+#create a collection inside the database
+        - db.createCollection('nameof_collection');
+
+#if it does not start(the mongosh shell)
+                - sudo service mongod start
+
+
+use mentors;
+
+db.createCollection('teachers');
+
+show collections
+
+db.teachers.insertOne({name: 'Kartik', subject: 'Web Development'});
+
+db.teachers.find()
+
+db.teachers.insertMany([{name: 'Mosina', subject: 'C++'},{name: 'Varun', subject: 'Data Science'}]);
+
+
+
+db.createCollection('products');
+
+db.products.find({price:{$in:[20,50]}});
+
+db.products.find({name:'Laptop'});
+
+db.products.find({name:'Laptop', features:'Antiglare'});
+
+db.products.find({name:'Laptop',price:{$gt:25}});
+
+db.products.drop()// will delete the collection
