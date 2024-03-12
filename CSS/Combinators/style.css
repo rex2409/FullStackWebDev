@@ -1,0 +1,31 @@
+/* Descendent Combinators */
+
+article p strong{
+    color:lightcoral;
+    font-size: 40px;
+}
+
+p span em{
+    color: green;
+    text-transform: uppercase;
+}
+
+/* Child Combinators */
+
+
+ul>li{
+    border-top: 2px solid orange;
+}
+
+/* Adjacent Combinators */
+
+h4+p{
+    color: green;/*so the para after h4 is selcted not before*/
+}
+
+/* General Sibling Combinator */
+
+h3~p{
+    color: lightcoral;
+    text-decoration: line-through;
+}

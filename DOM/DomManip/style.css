@@ -1,0 +1,10 @@
+.heading-class{
+    color: red;
+    background-color: lightblue;
+    border: 4px solid black;
+    padding: 16px 8px;
+}
+
+.one{
+    text-decoration: line-through;
+}

@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding: 0;
+
+}
+
+nav{
+    font-size: 1.6rem;
+    background-color: rgb(23, 74, 151);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    padding: 10px 5px;
+}
+
+@media screen and (max-width: 600px) {
+    nav,ul{
+        flex-direction: column;
+        align-items: center;
+    }
+}

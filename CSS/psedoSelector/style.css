@@ -1,0 +1,57 @@
+div{
+    height:150px;
+    width:150px;
+    border: 3px solid black;
+    background-color: palevioletred;
+}
+
+div:hover{
+    background-color: lightgreen;
+    border-radius: 50%;
+}
+
+a:visited{
+    color:green;
+}
+
+h1:active{
+    color:red;
+}
+
+ol li:first-child{
+    color:yellow;
+}
+
+ol li:last-child{
+    color:orange;
+}
+
+ol li:nth-of-type(3){
+    color:green;
+}
+
+ol li:nth-of-type(even){
+    color:purple;
+}
+
+ol li:nth-of-type(odd){
+    color:blue;
+}
+
+ol li:nth-of-type(2n+4){
+    color:aqua;
+}
+
+h1:before{
+    content: "THis is before h1";
+    border:1px dashed green;
+}
+
+h1:after{
+    content: "THis is after h1";
+    border:1px dashed green;
+}
+
+input:focus{
+    background-color: lightblue;
+}

@@ -1,0 +1,13 @@
+section{
+    width: 70vw;
+    border: 10px solid lightgray;
+    padding: 16px;
+    margin: 0px auto;
+}
+img{
+    float: right;
+}
+
+#special{
+    clear: both;
+}

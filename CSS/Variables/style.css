@@ -1,0 +1,12 @@
+:root{
+    --section-color: lightgreen;
+    --section-border: 3px solid black;
+}
+
+
+section{
+    background-color: var(--section-color);
+    height: 100px;
+    width: 200px;
+    border: var(--section-border);
+}
